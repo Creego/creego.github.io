@@ -6,5 +6,3 @@ if (body && toggle) {
     body.classList.toggle('theme-dark');
   });
 }
-
-
