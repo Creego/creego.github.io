@@ -530,6 +530,14 @@ p {
   margin: 0;
 }
 
+.works .description p {
+  margin: 0 0 10px;
+}
+
+.works .description p:last-child {
+  margin: 0;
+}
+
 @media screen and ( max-width: 678px ) {
   .works ul {
     margin: 0 0 0;
@@ -554,10 +562,6 @@ p {
 
   .works .date:after {
     border: 0;
-  }
-
-  .works .description p {
-    margin: 0 0 10px;
   }
 }
 
