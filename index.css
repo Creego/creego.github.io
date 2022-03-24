@@ -187,6 +187,7 @@ p {
 
 .toggle {
   position: fixed;
+  display: none;
   top: 40px;
   right: 20px;
   z-index: 20;
