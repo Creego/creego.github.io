@@ -117,7 +117,7 @@ p {
   padding: 40px 0;
 }
 
-@media screen and ( max-width: 1000px ) {
+@media screen and ( max-width: 1024px ) {
   .wrapper {
     padding: 0;
   }
@@ -163,7 +163,7 @@ p {
   }
 }
 
-@media screen and ( max-width: 1000px ) {
+@media screen and ( max-width: 1024px ) {
   .page {
     width: 100%;
     display: block;
@@ -175,7 +175,7 @@ p {
   display: none;
 }
 
-@media screen and ( max-width: 1000px ) {
+@media screen and ( max-width: 1024px ) {
   .mobile {
     display: block;
   }
@@ -205,7 +205,7 @@ p {
               0 8px 16px rgba(0,0,0,0.11);
 }
 
-@media screen and ( max-width: 1000px ) {
+@media screen and ( max-width: 1024px ) {
   .toggle {
     top: 10px;
     right: 10px;
@@ -320,7 +320,7 @@ p {
   transition: all .2s ease;
 }
 
-@media screen and ( max-width: 1000px ) {
+@media screen and ( max-width: 1024px ) {
   .page_left {
     width: 100%;
     border: 0;
@@ -416,36 +416,30 @@ p {
   margin:  0 0 20px;
 }
 
-
-
-
-.skills {
+.skills ul {
   display: flex;
-}
-
-.skills__block {
-  width: 50%;
-}
-
-@media screen and ( max-width: 1000px ) {
-  .skills {
-    display: block;
-  }
-
-  .skills h1 {
-    text-align: center;
-  }
-
-  .skills__block {
-    width: 100%;
-  }
+  flex-flow: wrap;
 }
 
 .skills li {
   display: flex;
-  width:  100%;
+  width:  50%;
   align-content: space-between;
   margin: 0 0 14px;
+}
+
+@media screen and ( max-width: 1024px ) {
+  .skills h1 {
+    text-align: center;
+  }
+
+  .skills ul {
+    display: block;
+  }
+
+  .skills li {
+    width: 100%;
+  }
 }
 
 .skills li p {
