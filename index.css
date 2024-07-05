@@ -187,7 +187,6 @@ p {
 
 .toggle {
   position: fixed;
-  display: none;
   top: 40px;
   right: 20px;
   z-index: 20;
@@ -360,6 +359,13 @@ p {
   max-width: 100%;
   max-height: 100%;
   border-radius: 100%;
+}
+
+@media screen and ( max-width: 1024px ) {
+	.info img {
+		max-width: 40%;
+  	max-height: 40%;
+	}
 }
 
 .info .title {
